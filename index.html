@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissors">Scissors</button>
-    <div id="results-parent">
+    <div class="button-container">
+        <button id="rock" class="buttons">Rock</button>
+        <button id="paper" class="buttons">Paper</button>
+        <button id="scissors" class="buttons">Scissors</button>
+    </div>
+    <div class="results-container">
         <h1>Score</h1>
-        <label>You:Computer</label>
-        <h2 id="score-display">0:0</h2>
+        <div class="score-container">
+            <h2 id="score-display">0:0</h2>
+            <label>You:Computer</label>
+        </div>
+
         <div id="round-messages"></div>
     </div>
 

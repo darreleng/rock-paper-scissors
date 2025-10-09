@@ -1,0 +1,17 @@
+.button-container, .results-container {
+    text-align: center;
+}
+
+.buttons {
+    padding: 12px 20px;
+}
+
+.score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 12px;
+}
